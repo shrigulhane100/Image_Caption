@@ -24,7 +24,7 @@ def predict(image,max_length=64, num_beams=4):
 
 input = gr.inputs.Image(label="Upload any Image", type = 'pil', optional=True)
 output = gr.outputs.Textbox(type="auto",label="Captions")
-examples = [f"example{i}.jpg" for i in range(1,7)]
+examples = [f"example{i}.jpg" for i in range(1,3)]
 
 title = "Image Captioning "
 
