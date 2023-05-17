@@ -10,6 +10,9 @@ The Image Caption project uses the **ViT-GPT2** model to generate captions for i
 - `tokenizer = AutoTokenizer.from_pretrained(decoder_checkpoint)`: This variable tokenizes captions using the GPT2 tokenizer.
 - `model = VisionEncoderDecoderModel.from_pretrained(model_checkpoint).to(device)`: This variable loads the ViT-GPT2 model.
 
-
+ Results from 3 sample images: 
+- a man in a soccer uniform kicking a soccer ball 
+- two horses are standing in a field
+- a collage of photos showing a men and women with a sign 
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces#reference
