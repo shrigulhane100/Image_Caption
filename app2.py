@@ -40,7 +40,7 @@ img#style-image {
 demo = gr.Blocks(css=css)
 with demo:
   gr.Markdown('''<h1 id="title">Image Caption 🖼️</h1>''')
-  gr.Markdown('''Made by : Shreyas Dixit''')
+  gr.Markdown('''Made by : Shriyash Gulhane''')
   with gr.Column():
         input = gr.inputs.Image(label="Upload your Image", type = 'pil', optional=True)
         output = gr.outputs.Textbox(type="auto",label="Captions")
