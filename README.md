@@ -9,6 +9,8 @@ The Image Caption project uses the **ViT-GPT2** model to generate captions for i
 - `model = VisionEncoderDecoderModel.from_pretrained(model_checkpoint).to(device)`: This variable loads the ViT-GPT2 model.
 
 
+
+
 ---
 title: Image Caption
 emoji: 🏅
